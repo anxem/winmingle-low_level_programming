@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# Author: Chibuzor Anselm Obilor
+# Program: WinMingleCommunity C Training
+# Description: Runs a c file through the GCC preprocessor and
+#              saves the result into a file named "c".
+#
+# Run the c preprocessor on the file stored in CFILE
+# -E tells gcc to stop after preprocessing
+# The result is redirected into a file named "c"
+
+gcc -E "$CFILE" -o c
