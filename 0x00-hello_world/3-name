@@ -1,0 +1,9 @@
+#!/bin/bash
+# Author: Chibuzor Anselm Obilor
+# Program: WinMingle Community C Training
+# Description: Compiles a C file stored in the variable CFILE
+#              and creates an executable name cisfun
+
+
+# Compile the C file and name the executable "cisfun"
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 "$CFILE" -o cisfun
