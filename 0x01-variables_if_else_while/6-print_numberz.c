@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Author: Anselm Obilor
+ * Author: Chibuzor Anselm Obilor
  * Program: WinMingle Community C Training
  * Description: Prints all single-digit numbers of base 10 starting from 0
  *              without using char variables
