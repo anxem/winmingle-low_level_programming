@@ -8,6 +8,6 @@
 
 int main(void)
 {
-    Printf("Hello, WinMingle!\n");
+    printf("Hello, WinMingle!\n");
     return 0;
 }

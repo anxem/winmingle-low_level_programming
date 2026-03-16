@@ -1,0 +1,8 @@
+#!/bin/bash
+# Author: Chibuzor Anselm Obilor
+# Program: WinMingle Community C Training
+# Description: Compiles a C file stored in the variable CFILE
+#              without linking and produces an object (.o) file
+
+# Comile the C file without linking
+gcc -c $CFILE
