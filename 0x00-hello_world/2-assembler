@@ -1,0 +1,8 @@
+#!/bin/bash
+# Author: Chibuzor Anselm Obilor
+# Program: WinMingle COmmunity C Training
+# Description: Generates the assembly code of a C file stored in CFILE
+#              and saves the result with the same name but with .s extension
+
+# Generat assembly code from the c file
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -S "$CFILE"
