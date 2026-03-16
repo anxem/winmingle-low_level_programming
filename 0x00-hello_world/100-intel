@@ -1,0 +1,8 @@
+#!/bin/bash
+# Author: Chibuzor Anselm Obilor
+# Program: WInMIngle Community C Training
+# Description: Generate the assembly code of a C file in Intel syntax
+#              and saves it to an output file with the same name but .s extension
+
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -S -masm=intel "$CFILE"
